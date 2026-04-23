@@ -75,7 +75,7 @@ when status = 1 then 'Còn hàng'
    when status = 1 then 'hết hàng' 
    else 'không xác định' 
    end as status_name 
-   from Books; 
+   from Book; 
 
 
 
